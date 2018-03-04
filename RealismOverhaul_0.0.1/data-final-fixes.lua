@@ -20,17 +20,15 @@ data.raw.recipe["car"].ingredients = {
 
 data.raw.technology["automobilism"].effects = {
 	{recipe = "car", type = "unlock-recipe"},
-	{recipe = "transmission", type = "unlock-recipe"},
 	{recipe = "car-frame", type = "unlock-recipe"}
 }
 
 data.raw.technology["automobilism"].prerequisites = {
-	"logistics-2", "engine", "rubber"
+	"logistics-2", "engine", "rubber", "actuators"
 }
 
 data.raw.technology["engine"].effects = {
 	{type = "unlock-recipe", recipe = "engine-unit"},
 	{type = "unlock-recipe", recipe = "pump"},
 	{type = "unlock-recipe", recipe = "spark-plug"},
-	{type = "unlock-recipe", recipe = "piston"},
 }
