@@ -26,7 +26,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "actuators",
-		icon = "__RealismOverhaul__/graphics/icons/rubber-tire.png",
+		icon = "__RealismOverhaul__/graphics/icons/piston.png",
 		icon_size = 32,
 		prerequisites = {
 			"steel-processing"
